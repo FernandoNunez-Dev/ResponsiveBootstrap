@@ -1,0 +1,29 @@
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Scada', sans-serif;
+}
+
+
+.jumbotron {
+    background-image: url('https://images.pexels.com/photos/1616403/pexels-photo-1616403.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+section {
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+
+#features {
+    padding-top: 0;
+}
+
+
+
