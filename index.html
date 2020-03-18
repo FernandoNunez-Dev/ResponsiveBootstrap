@@ -24,32 +24,32 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav" id="navScrollspy">
                     <li class="nav-item">
-                        <a href="#top" class="nav-link">To the top</a>
+                        <a href="#section-top" class="nav-link">To the top</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#about" class="nav-link">About</a>
+                        <a href="#section-about" class="nav-link">About</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#features" class="nav-link">Features</a>
+                        <a href="#section-features" class="nav-link">Features</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#Services" class="nav-link">Services</a>
+                        <a href="#section-Services" class="nav-link">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#Contact" class="nav-link">Contact</a>
+                        <a href="#section-Contact" class="nav-link">Contact</a>
                     </li>
                 </ul>
             </div>
         </nav>
 
-        <section id="top" class="jumbotron jumbotron-fluid text-white d-flex justify-content-center align-items-center">
+        <section id="section-top" class="jumbotron jumbotron-fluid text-white d-flex justify-content-center align-items-center">
             <div class="container text-center">
                 <h2 class="display-3 text-white text-uppercase">Fernando Nunez</h2>
                 <p class="display-4 text-warning">FULLSTACK ENGINEER</p>
             </div>
         </section>
     
-        <section id="about">
+        <section id="section-about">
             <div class="container">
                 <h2 id="heading" class="display-4 text-center text-primary mb-5">Front End Focused With FullStack Experience</h2>
             </div>
@@ -62,7 +62,7 @@
             </div>
         </section>
 
-    <section id="features">
+    <section id="section-features">
         <div class="container">
             <h2 class="display-4 text-center text-primary mb-5">Features</h2>
                 <div class="row">
@@ -101,7 +101,7 @@
           </section>
     
 
-    <section id="Services">
+    <section id="section-Services">
         <div class="container">
             <h2 class="display-4 text-center text-primary mb-5">Services</h2>
             <div class="row">
@@ -156,7 +156,7 @@
         </div>
     </section>
 
-    <section id="Contact" class="bg-danger">
+    <section id="section-Contact" class="bg-danger">
             <div class="container">
                 <form>
                     <h2 class="text-warning">Contact Me For Free Consultation And Business Venture Partnership.</h2>
@@ -301,5 +301,10 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/12.1.5/js/smooth-scroll.min.js" integrity="sha256-MMt0/21G3z0Zg4ET1kI3HC9npItDowkitRDVr0FhCxA=" crossorigin="anonymous"></script>
+  
+    <script type="text/javascript">
+      $(function () {
+        var scroll = new SmoothScroll('a[href*="#section-"]')
+      });
   </body>
 </html>
